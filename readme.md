@@ -27,3 +27,6 @@ It's very striaght forward.
 
 And thats it! Execute it, and it will start in the system tray of your computer. Right click on the gray cat and a menu will appear.
 
+### VirusTotal Results
+Due to this program using python keyboard packages, 8 out of 72 tested anti-virus' may flag this file. Hence why you can see the code here and build it yourself for full transparency and proof that the program isnt exactly malicious. **However, I am not responsible on how you use or modify it.** Here is the results of the version in the latest release:
+https://www.virustotal.com/gui/file-analysis/ZjY3NWI1MWUxZDMxZGM5ODgzNGVjNmIwMWMxYTlhNDQ6MTY5NjcwOTY2OA==
