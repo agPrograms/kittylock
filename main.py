@@ -22,8 +22,9 @@ image = pi.open(resource_path(png))
 
 def on_quit(): # this is not stopping python process.
     icon.visible = False
-    icon.stop
-    sys.exit(0)
+    kb.unhook_all() # Dont want to keep it running now, just for saftey - as exit should kill it anyway.
+    icon.stop()
+    os._exit(0) # Kills remaining process.
 
 def kl_calc(state, key): #this may need to be an outside func....
     # For future use. Still in dev.
