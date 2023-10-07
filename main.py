@@ -20,7 +20,7 @@ def resource_path(png): # load image
     return os.path.join(base_path, png)
 image = pi.open(resource_path(png))
 
-def on_quit(): # this is not stopping python process.
+def on_quit():
     icon.visible = False
     kb.unhook_all() # Dont want to keep it running now, just for saftey - as exit should kill it anyway.
     icon.stop()
