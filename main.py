@@ -90,7 +90,7 @@ menu = (
     item('Turn on/off KittyLock', on_toggle1, checked=lambda item: klstate),
     item('Enable Auto-Lock', on_toggle2, checked=lambda item: autostate),
     item('Mew?', lambda: icon.notify('Mew! .. is that what you wanted?')),
-    item('Version 0.1.3', None),
+    item('Version 0.1.4', None),
     item('Quit', on_quit)
 )
 
